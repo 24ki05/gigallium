@@ -1,0 +1,20 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:bone_meal",
+            "nbt":"{Enchantments:[{\"www\":\"www\"}]}"      
+        },
+        "title":"How to Use",
+        "frame":"task",
+        "description":"",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "parent":"gigallium:tutorial/root",
+    "criteria":{
+        "GBMuse":{
+            "trigger":"minecraft:impossible"
+        }
+    }
+}

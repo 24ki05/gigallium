@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:crafting_table"        
+        },
+        "title":"Recipe",
+        "frame":"task",
+        "description":"",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "parent":"gigallium:tutorial/root",
+    "criteria":{
+        "GBMcraft":{
+            "trigger":"minecraft:impossible"
+        }
+    }
+}

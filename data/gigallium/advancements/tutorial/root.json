@@ -1,0 +1,34 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:bone_meal",
+            "nbt":"{Enchantments:[{\"www\":\"www\"}]}"
+        },
+        "title":"Giga Bone Meal",
+        "frame":"task",
+        "background":"minecraft:textures/block/lime_wool.png",
+        "description":"",
+        "show_toast":true,
+        "announce_to_chat":false,
+        "hidden":true
+    },
+    "criteria":{
+        "GBMroot":{
+            "trigger":"minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                            {
+                                "items":["minecraft:bone_meal"]
+                            },
+                            {
+                                "items":["minecraft:string"],
+                                "count":{"min":8}
+                            }
+                ]
+            }
+        }
+    },
+    "rewards":{
+        "function":"gigallium:adv_grant"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "rewards":{
+    "function":"nsk:id_allocation/loged_in"
+  }
+}

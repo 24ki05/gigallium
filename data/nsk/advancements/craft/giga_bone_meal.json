@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        
+        "recipe": "nsk:giga_bone_meal"
+          
+        
+      }
+    }
+  },
+  "rewards":{
+    "function":"nsk:craft/giga_bone_meal"
+  }
+}

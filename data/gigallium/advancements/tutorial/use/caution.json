@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:structure_void"   
+        },
+        "title":"注意",
+        "frame":"task",
+        "description":"右クリックで使用すると通常の骨粉として消費されるので注意",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "parent":"gigallium:tutorial/use/throw",
+    "criteria":{
+        "GBMuse":{
+            "trigger":"minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:allium"   
+        },
+        "title":"使用",
+        "frame":"task",
+        "description":"Alliumの近くに投げて使用する",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "parent":"gigallium:tutorial/use/use_root",
+    "criteria":{
+        "GBMuse":{
+            "trigger":"minecraft:impossible"
+        }
+    }
+}

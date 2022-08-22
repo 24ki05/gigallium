@@ -1,0 +1,19 @@
+{
+    "display":{
+        "icon":{
+            "item":"minecraft:bone_meal"        
+        },
+        "title":"Bone Meal",
+        "frame":"task",
+        "description":"",
+        "show_toast":false,
+        "announce_to_chat":false,
+        "hidden":false
+    },
+    "parent":"gigallium:tutorial/craft/upper_left",
+    "criteria":{
+        "GBMcraft":{
+            "trigger":"minecraft:impossible"
+        }
+    }
+}

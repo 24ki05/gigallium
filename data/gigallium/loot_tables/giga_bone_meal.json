@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone_meal",
+            "functions": [
+                {
+                "function":"minecraft:set_nbt",
+                "tag":"{nsk:gigallium,Enchantments:[{\"www\":\"www\"}],HideFlags:32}"
+                },
+                {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [
+                    {
+                    "text": "Giga Bone Meal",
+                    "color": "white",
+                    "italic": false,
+                    "bold": true
+                    }
+                  ]
+                },
+                {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Alliumに投げるとすんごい育つ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "\"ギガ\"だよ\"ギガ\"",
+                    "color": "gray",
+                    "italic": false
+                  },{
+                    "text": "そりゃもうデカいに決まってるやん",
+                    "color": "gray",
+                    "italic": false
+                  }
+                  
+                ]
+              }
+            ]
+          }
+            
+                
+                
+            
+                
+          
+        ]
+      }
+    ]
+  }
